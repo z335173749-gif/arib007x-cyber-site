@@ -1,38 +1,41 @@
+<h2>🎨 CSS - Styling Websites</h2>
+
+<p>
+CSS (Cascading Style Sheets) is used to design and style HTML elements.
+It controls colors, layout, spacing, and animations.
+</p>
+
+<h3>🎯 Important Properties</h3>
+<ul>
+  <li>color → Text color</li>
+  <li>background-color → Background</li>
+  <li>font-size → Text size</li>
+  <li>margin → Space outside</li>
+  <li>padding → Space inside</li>
+  <li>border → Element border</li>
+</ul>
+
+<h3>💻 Example (Real Website Styling)</h3>
+
+<pre>
 body {
-  margin: 0;
-  font-family: monospace;
-  background: black;
-  color: #00ffcc;
-  text-align: center;
-  overflow-x: hidden;
+  background-color: black;
+  color: cyan;
+  font-family: Arial;
 }
 
-header {
-  padding: 20px;
-  text-shadow: 0 0 10px #00ffcc;
+h1 {
+  color: lime;
+  text-shadow: 0 0 10px lime;
 }
 
-nav button {
-  margin: 5px;
-  padding: 10px 15px;
-  background: #00ffcc;
+button {
+  background: cyan;
   border: none;
+  padding: 10px;
   cursor: pointer;
-  font-weight: bold;
 }
+</pre>
 
-.card {
-  margin: 20px auto;
-  width: 80%;
-  border: 1px solid #00ffcc;
-  padding: 20px;
-  text-align: left;
-}
-
-/* MATRIX */
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
+<h3>⚡ Tip</h3>
+<p>CSS makes a plain HTML page look like a professional website.</p>

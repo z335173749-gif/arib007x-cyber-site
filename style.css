@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background: black;
+  color: #00ffcc;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 20px;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px 15px;
+  background: #00ffcc;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card {
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #00ffcc;
+  padding: 20px;
+  text-align: left;
+}
+
+/* MATRIX */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
